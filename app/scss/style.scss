@@ -31,14 +31,16 @@ body {
 }
 
 .banner{
-        height: 300px;
-        background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('http://i.imgur.com/ko7dmcO.png') no-repeat center;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position-y: -60px;
+        // height: 300px;
+        // background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('http://i.imgur.com/ko7dmcO.png') no-repeat center;
+        // -webkit-background-size: cover;
+        // background-size: cover;
+    color: white;
 }
 
-
+b{
+    color:red;
+}
 
 // ******************************************
 // ******************************************
@@ -50,3 +52,15 @@ body {
 			height: 250px;
 		}
 	}
+
+md-divider{
+    width: 100%;
+}
+
+// ..sectionss/..............
+
+.section-2{
+    md-list{
+        width: 100%;
+    }
+}

@@ -1,7 +1,153 @@
-<div class="banner" layout="column" layout-align="center center">
-	<div layout="column" layout-align='center center'>
-		<h2>Kiran Bose</h2>
-		<span><i>"UI/UX Designer & Front end engineer"</i></span>
+<div layout="column" layout-align="center center" class="section-1">
+	<br><br>	
+	<h2>I am <b style="color:red">TEST</b></h2>	
+	<hr style="width:50%;">
+	<h4>Why?</h4>
+	<span>Well.. this is a pragraph to describe</span>
+	<br>
+	<span>read a little more <b>about me</b></span>
+</div>
+
+<div layout="column" class="section-2">
+	<div flex layout="row">
+		<div flex-gt-sm=20></div>
+		<div layout="column" layout-align="start start" flex-gt-sm>
+			<h2><b>Education</b></h2>
+			<br>
+			<md-list>
+				<md-list-item layout="row">
+					<div layout="column" flex=70>
+						<h3>M.Tech in Computer Science</h3>
+						<span><md-icon class="material-icons">location_on</md-icon>VIT University, Vellore</span>
+
+					</div>
+					<div layout="column" flex>
+						<span><md-icon>timelapse</md-icon>  2012-2014</span>
+						<span><md-icon></md-icon>Tamil Nadu</span>
+					</div>
+				</md-list-item>
+					<md-divider></md-divider>
+				<md-list-item layout="row">
+					<div layout="column" flex=70>
+						<h3>B.Tech in Computer Science</h3>
+						<span><md-icon class="material-icons">location_on</md-icon>College Of Engineering Perumon, CUSAT University</span>
+					</div>
+					<div layout="column" flex>
+						<span><md-icon>timelapse</md-icon>  2007-2011</span>
+						<span><md-icon></md-icon>Kerala</span>
+					</div>
+				</md-list-item>
+					<md-divider></md-divider>
+
+				<md-list-item layout="row">
+					<div layout="column" flex=70>
+						<h3>Class X, XII</h3>
+						<span><md-icon class="material-icons">location_on</md-icon>S.N.Public School, Kollam, Kerala</span>
+					</div>
+					<div layout="column" flex>
+						<span><md-icon>timelapse</md-icon>  --2007</span>
+						<span><md-icon></md-icon>Kerala</span>
+					</div>
+				</md-list-item>
+
+			</md-list>
+		</div>
+		<div flex-gt-sm=20></div>
 	</div>
-	
+</div>
+
+
+<div layout="column" class="section-3">
+	<div flex layout="row">
+		<div flex-gt-sm=20></div>
+		<div layout="column" layout-align="start start" flex-gt-sm>
+		<h2><b>Experience</b></h2>
+		<md-divider></md-divider>
+			<br>
+			<div layout="row">
+				<md-card>
+		        <md-card-header>
+		          <md-card-avatar>
+		            <img class="md-user-avatar" src="https://material.angularjs.org/latest/img/icons/angular-logo.svg"/>
+		          </md-card-avatar>
+		          <md-card-header-text>
+		            <span class="md-title">Sourceeasy</span>
+		            <span class="md-subhead">Nov 2015 - Present</span>
+		          </md-card-header-text>
+		        </md-card-header>
+		        <md-card-title>
+		          <md-card-title-text>
+		            <span class="md-headline">Front End Engineer</span>
+		            <span class="md-subhead">UI/UX Designer</span>
+		          </md-card-title-text>
+		        </md-card-title>
+		        <md-card-content>
+		          <p>
+		            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+		            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+		          </p>
+		        </md-card-content>
+      </md-card>
+      <md-card>
+		        <md-card-header>
+		          <md-card-avatar>
+		            <img class="md-user-avatar" src="https://material.angularjs.org/latest/img/icons/angular-logo.svg"/>
+		          </md-card-avatar>
+		          <md-card-header-text>
+		            <span class="md-title">Accenture</span>
+		            <span class="md-subhead">April 2014 - Nov 2015</span>
+		          </md-card-header-text>
+		        </md-card-header>
+		        <md-card-title>
+		          <md-card-title-text>
+		            <span class="md-headline">Software Engineer</span>
+		            <span class="md-subhead">Microsoft Account</span>
+		          </md-card-title-text>
+		        </md-card-title>
+		        <md-card-content>
+		          <p>
+		            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+		            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+		          </p>
+		        </md-card-content>
+      </md-card>
+			</div>
+			
+		</div>
+		<div flex-gt-sm=20></div>
+	</div>
+</div>
+
+
+<div layout="column" class="section-3">
+	<div flex layout="row">
+		<div flex-gt-sm=20></div>
+		<div layout="column" layout-align="start start" flex-gt-sm>
+		<h2><b>Interests</b></h2>
+		<md-divider></md-divider>
+		<br>
+		<span>Learning keeps me alive, also...</span>
+		<br>
+			<div layout="row" layout-align="center center">
+				<div layout="column" flex>
+					<div layout="row" layout-padding layout-align="start center" ng-repeat="interest in interests">
+						<img  ng-src="{{interest.icon}}" alt="">
+						<span flex>{{interest.name}}</span>
+					</div>
+				</div>
+				<div flex`></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div layout="column" class="section-3">
+	<div flex layout="row">
+		<div flex-gt-sm=20></div>
+		<div layout="column" layout-align="start start" flex-gt-sm>
+		<h2><b>Contributions</b></h2>
+		<md-divider></md-divider>
+		</div>
+	</div>
 </div>

@@ -56,7 +56,8 @@ gulp.task('vendor', function () {
             gulpPaths.bc + 'angular-aria/angular-aria.js',
             gulpPaths.bc + 'angular-animate/angular-animate.js',
             gulpPaths.bc + 'angular-material/angular-material.js',
-            gulpPaths.bc + 'angular-ui-router/release/angular-ui-router.js'
+            gulpPaths.bc + 'angular-ui-router/release/angular-ui-router.js',
+            gulpPaths.bc + 'particles.js/particles.js'
         ])
         .pipe(plumber())
         .pipe(concat('vendor.js'))
@@ -70,7 +71,7 @@ gulp.task('vendor', function () {
     // Vendor CSS files concatenation
     console.log('vendor CSS gulp task running');
     gulp.src([
-            gulpPaths.bc + 'angular-material/angular-material.css',
+            gulpPaths.bc + 'angular-material/angular-material.css'
         ])
         .pipe(concat('vendor.css'))
         .pipe(gulp.dest(gulpPaths.app + '/css'))
